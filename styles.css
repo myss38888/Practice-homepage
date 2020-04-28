@@ -1,0 +1,119 @@
+/*CSS for elements common to all linked pages*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: grey;
+    color: white;
+    border-bottom: pink 5px solid;
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    padding-top: 15px;
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+}
+
+#logo:hover{
+    color: pink;
+}
+
+.navbar-nav li a {
+    margin-right:20px;
+}
+
+/*CSS for Home*/
+
+.jumbotron {
+    min-height: 85vh;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url('shadow.JPG') no-repeat;
+    background-position: 0% 30%;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+
+.jumbotron h1{
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+
+.jumbotron h3{
+    padding-top:50px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+
+/*CSS for about, offer, contact*/
+
+.introduction {
+    font-family: 'Satisfy', cursive;
+    padding-top: 30px;
+}
+
+.introduction-img {
+    margin-top: 50px;
+    min-height: 63.5vh;
+}
+.card-img-top {
+    width: 50%;
+    margin: auto;
+}
+
+#offer {
+    width: 70%;
+}
+
+.card {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+form {
+    min-height: 66vh;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group input {
+    background-color: #f2f2f2;
+}
+
+.form-row {
+    margin: auto;
+    width:70%;
+    margin-top: 30px;
+}
+
+#send {
+    text-align: center;
+    width: 71.5%;
+}
+
+.btn {
+    background: pink;
+
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
